@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    paddinhg: 0px;
+}
+
+#flex-container{
+    display: grid;
+    min-height: 100vh;
+    grid-template-rows: 70px 1fr 30px;
+}
+
+header{
+    background-color: orange;
+    top: 0px;
+}
+
+footer{
+    background-color: pink;
+    bottom: 0px;
+}
+
+main{
+    background: white;
+    height: 100%;
+}
